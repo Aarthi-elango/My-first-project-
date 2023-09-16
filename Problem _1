@@ -1,0 +1,8 @@
+Res=[]
+Stud_marks=input ("enter the marks"). split (",")
+For m in stud_marks:
+         If int(m) >=35:
+                 Res.append("pass")
+          Else:
+                 Res.append("fail")
+Print (Res)
